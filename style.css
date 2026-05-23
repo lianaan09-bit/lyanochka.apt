@@ -1,0 +1,40 @@
+font-size: 1.1rem;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 25px;
+    padding: 25px 30px;
+    margin: 20px 0;
+    border: 1px dashed rgba(255, 210, 130, 0.5);
+    text-shadow: 0 0 6px #8162b0;
+}
+
+.story p {
+    margin-bottom: 18px;
+}
+
+.story p:last-child {
+    margin-bottom: 0;
+}
+
+.magic-line {
+    width: 120px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #ff9f7c, #6ec6ff, #ffe082, transparent);
+    margin: 30px auto;
+    border-radius: 3px;
+}
+
+.footer-note {
+    font-size: 0.9rem;
+    color: #cdb5f0;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+@media (max-width: 600px) {
+    .card {
+        padding: 30px 20px;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+}
